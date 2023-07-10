@@ -1,0 +1,54 @@
+<meta charset="utf-8">
+<h1>Programa Cálcular IMC</h1>
+<script>
+    
+
+    function saltarlinea() {
+    	document.write("<br>");
+    	document.write("<br>");
+    	document.write("<br>");
+    }
+    function imprimir(frase) {
+    	document.write(frase);
+		saltarlinea();
+
+    }
+	
+    //function calcularImc(peso, altura, nombre) {
+    //	imc = peso / (altura * altura);
+   // 	imprimir("el imc calculado para " + nombre + " es de: " + imc);
+    //}
+
+    //calcularImc(85, 1.87, "Seba");
+    //calcularImc(60, 1.65, "Ale");
+    //var pesoSeba = 85;
+    //var alturaSeba = 1.87;
+    //imcSeba = calcularImc(pesoSeba,alturaSeba);
+    //imprimir("El IMC de Seba es: " + imcSeba);
+    function calcularImc(peso,altura) {
+    	return (peso / (altura * altura));
+
+    }
+    //imprimir("El promedio del imc calculado de Seba y Ale es: " + ( calcularImc(85,1.87) + calcularImc(60,1.65) ) / 2 );
+    //imprimir("El promedio del imc calculado de Juan y Feli es: " + ( calcularImc(25,1.40) + calcularImc(22,1.22) ) / 2 );
+    nombre = prompt("Ingrese su nombre");
+    pesoInformado = prompt(nombre + ", Ingrese su peso");
+    alturaInformado = prompt(nombre + ", Ingrese su altura");
+
+    imcCalculado = calcularImc( pesoInformado, alturaInformado);
+    imprimir("El imc calculado de " + nombre + ", es " + imcCalculado);
+
+    if(imcCalculado <= 18.5) {
+        imprimir("El IMC esta por debajo del peso estipulado");
+    }
+    if(imcCalculado > 18.5 && imcCalculado < 25) {
+        imprimir("El IMC esta en rango normal de peso estipulado");
+    }
+    if(imcCalculado >= 25 && imcCalculado < 30) {
+        imprimir("El IMC esta en sobrepeso estipulado");
+    }
+    if(imcCalculado >= 30) {
+        imprimir("El IMC esta en grado de obesidad");
+    }
+
+</script>

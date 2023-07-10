@@ -1,0 +1,26 @@
+Descripcion de Instalacion
+
+La distribuidora de energía provee una tensión nominal de 220v y 50 hz de frecuencia.
+la linea de acometida de la distribuidora se vincula con el medidor de la misma empresa. Del mismo medidor
+parten 2 conductores de 4mm2 (marron,y celeste) que ingresan al tablero principal (TP) y se
+conectan a los bornes de entrada de una llave interruptora termomagnética principal (para cortocircuitos y sobrecarga) 
+de 2 x 25 A. El pilar de acometida es clase II.
+A la salida de la termica principal se ingresa al tablero seccional gral. (TSG) ubicado en el domicilio por
+medio de 2 conductores de 2 x 4mm2. En el TSG se ubica el interruptor diferencial de 2 x 40 A y de 30 mA de 
+sensibilidad (para contactos directos o indirectos) a la salida del mismo ID, aguas abajo por medio de borneras estan los
+circuitos de uso gral. con sus respectivas protecciones y conductores.
+
+	IUG: 2 x 10 A - 2 x 1.5 mm2 + PE
+	TUG: 2 x 16 A - 2 x 2.5 mm2 + PE
+	
+Desde allí a las luminarias y tomacorrientes que cumplen con las distancias, alturas y normas según A.E.A.
+interruptor de efecto entre 90 cm y 130 cm y la caja a no mas de 15 cm de marco de puerta.
+Tomacorrientes no menor a 15 cm y hasta 90 cm.
+Con respecto a fuentes de agua tomas a no menos de 10 cm sobre nivel de mesada con una distancia entre si no menor a 15 cm
+La distancia con fuente de agua debe ser mayor o igual a 40 cm.
+La superficie limite aplicación (SLA) es de 79 mts2.
+La demanda de potencia maxima simultanea es de 6720 va lo que nos da un grado de electrificación medio.
+El tablero seccional general se encuentra al potencial de tierra por medio de una jabalina de protección de 1.5 mts de largo,
+1/2" de diametro y tierra <= a 40 ohm, conductor verde-amarillo de 4 mm2 de sección.
+La canalización para todo el circuito es de caño rigido pvc blanco 7/8" ignifugo
+

@@ -1,0 +1,28 @@
+1 interruptor diferencial tetrapolar 40A
+3 llaves termomagneticas bipolar 10A
+3 llaves termomagneticas bipolar 16A
+4 llaves termomagneticas bipolar 20A
+1 gabinete 24 polos pvc embutir
+4 cintas aisladoras
+2 rollos cable unipolar 1.5 mm2 marron
+2 rollos cable unipolar 1.5 mm2 celeste
+2 rollos cable unipolar 1.5 mm2 verde/amarillo
+2 rollos cable unipolar 2.5 mm2 marron
+2 rollos cable unipolar 2.5 mm2 celeste
+2 rollos cable unipolar 2.5 mm2 verde/amarillo
+20 mts cable unipolar 4 mm2 marron
+20 mts cable unipolar 4 mm2 negro
+20 mts cable unipolar 4 mm2 rojo
+20 mts cable unipolar 4 mm2 celeste
+20 mts cable unipolar 4 mm2 verde/amarillo
+25 cajas rectangulares 10x5 cm
+15 cajas octogonales 9x9 cm
+1 rollo caño rigido pvc 7/8
+45 portalamparas
+5 llaves 2 puntos
+15 llaves 1 punto
+8 llaves pasillo o escalera
+15 tomas dobles
+20 tomas simples
+4 punto y toma
+

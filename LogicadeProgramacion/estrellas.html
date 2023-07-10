@@ -1,0 +1,55 @@
+<meta charset="utf-8">
+<h1>Programa Juego de Adivinación</h1>
+<script>
+    
+
+    function saltarlinea() {
+    	document.write("<br>");
+    	//document.write("<br>");
+    	//document.write("<br>");
+    }
+    function imprimir(frase) {
+    	document.write(frase);
+		saltarlinea();
+
+    }
+
+    for (var linea = 1; linea <= 3; linea++) {
+        
+        for(var columna = 1; columna <=10; columna++) {
+            document.write("*");
+        }
+        saltarlinea();
+    }
+    saltarlinea();
+    saltarlinea();
+
+    imprimir("fin de ejercicio");
+
+
+    var inicioDeSesionRegistrado = "alura";
+    var contrasenhaRegistrada = "alura321";
+
+    var intentos = 1;
+
+    while(intentos <=3) {
+
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+        if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+            break;
+        } else {
+            if(intentos == 3) {
+                alert("Agotaste el numero de intentos fallidos permitidos");
+
+            } else {
+                alert("inicio de sesión inválido. Por Favor intente de nuevo");
+            }
+        }
+        intentos++;
+
+    }
+
+</script>

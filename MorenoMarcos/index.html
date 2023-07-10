@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Moreno Construcción y Refrigeración</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Krub:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-bg">
+        <nav class="navegacion contenedor">
+          <a href="#">Inicio</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Galeria</a>
+          <a href="#">Contactos</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="contenido-hero">
+        <h2>Moreno Construcción y Refrigeración</h2>
+
+            <!-- <img src="img/wall.jpg" alt="icono portada">
+            <i class='bx bx-map'>Unquillo, Córdoba</i> -->
+        <p>
+            <h3>Unquillo, Córdoba</h3>
+            <i class='bx bxs-map' ></i>       
+        </p>        
+        <a class="boton" href="#contacto">Contactar</a>
+      </div>
+    </div>
+
+    <div class="contenedor sombra">
+      <h2>Mis Servicios</h2>
+        <section id="galeria" class="galeria contenedor">
+            <h3>Galería</h3>
+
+            <ul class="galeria-imagenes"></ul>
+        </section>
+      <div id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form class="formulario" action="#" method="POST">
+          <legend>Contactános llenando todos los campos</legend>
+
+          <div class="contenedor-campos">
+            <div class="campo">
+              <label>Nombre</label>
+
+              <input type="text" name="nombre" placeholder="Nombre" required />
+            </div>
+            <div class="campo">
+              <label>Teléfono</label>
+
+              <input type="tel" name="telefono" placeholder="Teléfono" />
+            </div>
+            <div class="campo w-100">
+              <label>Correo</label>
+
+              <input type="mail" name="correo" placeholder="Mail" />
+            </div>
+            <div class="campo w-100">
+              <label>Mensaje:</label>
+
+              <textarea></textarea>
+            </div>
+          </div>
+          <!--.contenedor-campos-->
+          <div class="enviar">
+            <input class="boton" type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>Todos los derechos reservados. Sebastián Hidalgo Freelancer</p>
+    </footer>
+  </body>
+</html>

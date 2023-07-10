@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Trabajo</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_FJrq94JoC7G402B2E02UW");
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav_logo">Sebastián Hidalgo</a>
+        </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Perfíl</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">Habilidades</a>
+            </li>
+            <li class="nav_item">
+              <a href="#work" class="nav_link">Trabajos</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <!-- home -->
+      <section class="home bd-grid" id="home">
+        <div class="home_data">
+          <h1 class="home_title">
+            Hola, <br />Yo soy <span class="home_title-color">Sebastián</span
+            ><br />
+            Desarrollador Web
+          </h1>
+          <a href="#contact" class="button nav_link">Contáctame</a>
+        </div>
+        <div class="home_social">
+          <a
+            href="https://www.linkedin.com/in/sebastian-hidalgo78/"
+            class="home_social-icon"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/flac0seba/"
+            class="home_social-icon"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/hidalgoseba"
+            class="home_social-icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i>
+          </a>
+        </div>
+        <div class="home_img">
+          <img src="assets/img/imgseba.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <h2 class="section-title">Perfíl</h2>
+
+        <div class="about_container bd-grid">
+          <div class="about_img">
+            <img src="assets/img/imgseba.jpg" alt="" />
+          </div>
+          <div>
+            <h2 class="about_subtitle">Hola soy Sebastián</h2>
+            <p class="about_text">
+              Desarrollador web full-stack, encontré en la programación mi
+              vocación. Me encanta lo que hago, en mis habilidades están
+              detalladas las tecnologías que manejo con mayor frecuencia y
+              habitualidad. Las oportunidades para crecer no solo son las que se
+              nos presentan, sino también las que podemos generar con la
+              dinámica del contacto, trabajo, proyectos, cursos. En fin las
+              tenemos al alcance de la mano en muchas situaciones diarias, solo
+              tenemos que estar abiertos a la interacción entre ellas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Habilidades</h2>
+
+        <div class="skills_container bd-grid">
+          <div>
+            <h2 class="skills_subtitle">Habilidades Profesionáles</h2>
+            <p class="skills_text">
+              Estas tecnologías están en crecimiento constante como el
+              aprendizaje que necesitamos de ellas. Por tal motivo me encuentro
+              en el recorrido natural de las mismas con entusiasmo y
+              perseverancia.
+            </p>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-html5 skills_icon"></i>
+                <span class="skills_name">HTML5</span>
+              </div>
+              <div>
+                <span class="skills_percentage"> 95%</span>
+              </div>
+              <div class="skills_bar skills_html"></div>
+            </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-css3 skills_icon"></i>
+                <span class="skills_name">CSS3</span>
+              </div>
+              <div>
+                <span class="skills_percentage"> 85%</span>
+              </div>
+              <div class="skills_bar skills_css"></div>
+            </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-javascript skills_icon"></i>
+                <span class="skills_name">JavaScript</span>
+              </div>
+              <div>
+                <span class="skills_percentage"> 70%</span>
+              </div>
+              <div class="skills_bar skills_js"></div>
+            </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-react skills_icon"></i>
+                <span class="skills_name">React</span>
+              </div>
+              <div>
+                <span class="skills_percentage"> 65%</span>
+              </div>
+              <div class="skills_bar skills_react"></div>
+            </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-php"></i>
+                <span class="skills_name">Php</span>
+              </div>
+              <div>
+                <span class="skills_percentage"> 90%</span>
+              </div>
+              <div class="skills_bar skills_php"></div>
+            </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-nodejs"></i>
+                <span class="skills_name">Nodejs</span>
+              </div>
+              <div>
+                <span class="skills_percentage"> 80%</span>
+              </div>
+              <div class="skills_bar skills_nodejs"></div>
+            </div>
+          </div>
+          <div>
+            <img src="assets/img/ofi.jpg" alt="" class="skills_img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- works -->
+      <section class="work section" id="work">
+        <h2 class="section-title">Trabajos</h2>
+
+        <div class="work_container bd-grid">
+          <div class="work_img">
+            <a
+              href="https://peluqueriawebpractica.netlify.app/"
+              target="_blank"
+            >
+              <img src="assets/img/barberia.jpg" alt="" />
+            </a>
+          </div>
+          <div class="work_img">
+            <a href="https://inmoargentina.000webhostapp.com/" target="_blank">
+              <img src="assets/img/header.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contacto</h2>
+
+        <div class="contact_container bd-grid contact_form">
+          <form id="form" class="contact_form"  action="https://formspree.io/f/xgerpkbq" method="POST">
+            <input name="name" type="text" id="name" class="contact_input" required placeholder="Nombre">
+            <input name="email" type="text" id="email" class="contact_input" required placeholder="E-mail">
+            <textarea id="message" name="message" class="contact_input" required cols="30" rows="10" placeholder="Mensaje..."></textarea>
+            <button type="submit" class="contact_button button">Enviar</button>
+          </form>
+          <a href="mailto:masdeseba@gmail.com" id="trucazo">jojojoj</a>
+          <!-- <form class="contact_form">
+            <input
+              type="text"
+              id="toName"
+              class="contact_input"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="text"
+              id="fromName"
+              class="contact_input"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              id="msg"
+              class="contact_input"
+              cols="0"
+              rows="10"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+            <!-- <input type="button" class="contact_button button" value="Enviar"> -->
+            <!-- <button onclick="enviarMail()" class="contact_button button">Enviar</button>
+          </form> --> 
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footer_title">Sebastián</p>
+
+      <div class="footer_social">
+        <a href="https://www.facebook.com/" target="_blank" class="footer_icon"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/flac0seba/" target="_blank" class="footer_icon"><i class="bx bxl-instagram"></i></a>
+        <a href="https://twitter.com/hidalgobastian" target="_blank" class="footer_icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
